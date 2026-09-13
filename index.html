@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عيد ميلاد حنان ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <main class="container">
+    <section class="screen active" id="screen1">
+      <div class="gift">🎁</div>
+      <p class="small">في هدية صغيرة مستنياكي...</p>
+      <h1>إلى حنان ❤️</h1>
+      <p>جاهزة تفتحيها؟</p>
+      <button onclick="nextScreen(2)">افتحي هديتك ✨</button>
+    </section>
+
+    <section class="screen" id="screen2">
+      <div class="cake">🎂</div>
+      <h2>كل سنة وانتي طيبة يا حنان ❤️</h2>
+      <p class="message">
+        النهارده مش يوم عادي، النهارده يوم مميز جدًا عشان هو يوم ميلادك.
+        أتمنى السنة الجديدة من عمرك تكون مليانة فرحة ونجاح وضحكة حلوة متفارقش وشك.
+      </p>
+      <button onclick="nextScreen(3)">كملي المفاجأة 💗</button>
+    </section>
+
+    <section class="screen" id="screen3">
+      <div class="photo-frame">
+        <div class="photo-placeholder">💖</div>
+        <p>مكان صورة جميلة ليكي</p>
+      </div>
+      <h2>رسالة ليكي 💕</h2>
+      <p class="message">
+        حنان، وجودك في حياتي حاجة جميلة بجد.
+        أتمنى أفضل أشوفك دايمًا مبسوطة، وأتمنى كل أحلامك تتحقق.
+        مهما كانت الكلمات بسيطة، فهي طالعة من قلبي عشان أقولك:
+        كل سنة وإنتِ أجمل وأطيب حنان ❤️
+      </p>
+      <button onclick="nextScreen(4)">آخر مفاجأة 🎉</button>
+    </section>
+
+    <section class="screen" id="screen4">
+      <div class="big-heart">❤️</div>
+      <h2>مفاجأة صغيرة ليكي يا حنان ✨</h2>
+      <p class="final-text">
+        أتمنى عيد ميلادك يكون بداية سنة أجمل من كل اللي فات،
+        وتفضلي دايمًا مبتسمة ومحققة كل اللي نفسك فيه 🎂🌷
+      </p>
+      <div class="wish">✨ 🎈 🎂 💖 🌷 ✨</div>
+      <button onclick="makeMagic()">اضغطي هنا للمفاجأة الأخيرة 💕</button>
+      <p id="magic" class="magic"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
